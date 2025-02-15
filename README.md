@@ -35,18 +35,18 @@ python3 kernel_density_estimation4.py
 
 ### 2. Kernel Density Estimation (OpenMP Implementation)
 
-2.1. Compile the code using make (after configuring with CMake):
+- 2.1. Compile the code using make (after configuring with CMake):
 make
-2.2. Run the OpenMP version:
+- 2.2. Run the OpenMP version:
 
 ./kernel_density_estimation_open_mp4
 
 ### 3. Kernel Density Estimation (CUDA Implementation)
 
-3.1. Compile the CUDA code:
+- 3.1. Compile the CUDA code:
 
 nvcc -o kde_cuda kde_cuda.cu
 
-3.2. Run the CUDA version:
+- 3.2. Run the CUDA version:
 
 ./kde_cuda
