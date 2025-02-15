@@ -1,0 +1,15 @@
+# Ignorar o diretório build
+/build/
+
+# Ignorar arquivos temporários ou de compilação
+*.o
+*.a
+*.so
+*.out
+
+# Ignorar arquivos de configuração de IDEs
+.vscode/
+.idea/
+
+# Ignorar arquivos de log
+*.log
